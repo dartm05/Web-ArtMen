@@ -87,6 +87,7 @@ hr {
   color: #333;
   text-transform: uppercase;
 }
+.figure{}
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -314,7 +315,7 @@ header .intro-text {
   color: #fff;
 }
 #services .service-desc {
-  margin: 10px 10px 20px;
+  margin: 10px 10px 10px;
 }
 #services h2 {
   color: #fff;
@@ -353,6 +354,11 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
+}
+
+#portfolio img {
+  width: 380px;
+  height: 310px;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -448,6 +454,7 @@ header .intro-text {
 }
 #team .team-img {
   width: 240px;
+  height: 200px;
 }
 #team .thumbnail {
   background: transparent;

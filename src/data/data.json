@@ -1,100 +1,61 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Plastic Surgery",
+    "paragraph": " Start your journey to a healthier life and your ideal body!"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Dr Luis Arteaga is a recognized plastic surgeon from Cartagena, Colombia where he acquired his Bachelor's degree in Medicine and specialized in General Surgery at The University of Cartagena.  Later on, he performed specialization studies in Human Anatomy, at The University of Antioquia and, continuing with his academic training, he advanced studies in Cosmetic Surgery at The Colombian Academy of Aesthetic Surgery endorsed by The IACS (International Academy of Cosmetic Surgery).",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "More than 20 years of experience",
+      "Natural results suitable to your body type",
+      "Guaranteed satisfaction with results",
+      "Get to know Cartagena and all it has to offer!"
     ]
   },
   "Gallery": [
+
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Breast implants",
+      "largeImage": "img/portfolio/breast-implant.jpeg",
+      "smallImage": "img/portfolio/breast-implant.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Buttocks Enhancement",
+      "largeImage": "img/portfolio/buttocks.jpeg",
+      "smallImage": "img/portfolio/buttocks.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Breast reduction & Tummy Tuck ",
+      "largeImage": "img/portfolio/triplet.jpeg",
+      "smallImage": "img/portfolio/triplet.jpeg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-car",
+      "name": "Transportation",
+      "text": "Our package includes transportation from your arrival destination to our attention center"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-bed",
+      "name": "Stay",
+      "text": "We offer your safe recovery in a private hotel in which you'll have proper care by our nurses."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cutlery",
+      "name": "Nutritional plan",
+      "text": "Our service includes a dietary plan to guarantee you start a journey to a healthier life style."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-heartbeat",
+      "name": "Post operative care",
+      "text": "We offer personal medical attention by our nurses for as long as your surgery requires it. "
     },
+
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-medkit",
+      "name": "Medicine Kit",
+      "text": "Our kit includes every medicine and gardments you might need for a perfect recovery."
     }
   ],
   "Testimonials": [
@@ -131,54 +92,69 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
+      "img": "img/hotel/manga.jpeg",
       "name": "John Doe",
       "job": "Director"
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/hotel/entry.jpeg",
       "name": "Mike Doe",
       "job": "Senior Designer"
     },
     {
-      "img": "img/team/03.jpg",
+      "img": "img/hotel/bath.jpeg",
       "name": "Jane Doe",
       "job": "Senior Designer"
     },
     {
-      "img": "img/team/04.jpg",
+      "img": "img/hotel/room.jpeg",
       "name": "Karen Doe",
       "job": "Project Manager"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
+    "address": "Carrera 19 #26-207, Manga ",
+    "phone": "+57 317 227 2287",
+    "email": "DrLuisArteagaVilla@gmail.com",
+    "facebook": "https://www.facebook.com/luisarteagacirujano/",
+    "instagram": "https://instagram.com/dr.luis_arteaga?utm_medium=copy_link",
     "youtube": "youtube.com"
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
+      "img": "img/procedures/face.png",
+      "title": "Face procedures",
+      "text": "We offer multiple procedures such as blepharoplasty amongst other non-surgical rejuvenation procedures"
+    },
+
+    {
+      "img": "img/procedures/breast_implants.png",
+      "title": "Breast implants",
+      "text": " Our goal is a natural looking result that enhances your body type"
+    },
+    {
+      "img": "img/procedures/breast_enhance.png",
+      "title": "Breast reduction",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
+      "img": "img/procedures/lip.png",
+      "title": "Fillings",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
+      "img": "img/procedures/firming.png",
+      "title": "Tummy tuck",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
+      "img": "img/procedures/buttock_enhance.png",
+      "title": "Buttocks enhancement",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
+
+ 
+
+
   ]
 }
