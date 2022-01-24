@@ -1,3 +1,4 @@
+
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -56,6 +57,10 @@ export const Navigation = (props) => {
               <a href='#contact' className='page-scroll'>
                 Contact
               </a>
+            </li>
+
+            <li><a href="https://instagram.com/dr.luis_arteaga?utm_medium=copy_link"><i className='fa fa-instagram fa-2x'  aria-hidden="true"></i></a>
+            
             </li>
           </ul>
         </div>

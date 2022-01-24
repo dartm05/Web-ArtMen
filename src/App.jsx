@@ -10,6 +10,9 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import { FloatingWhatsApp } from 'react-floating-whatsapp-button'
+import 'react-floating-whatsapp-button/dist/index.css'
+
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -32,7 +35,7 @@ const App = () => {
       <Features data={landingPageData.Features} />
       <Services data={landingPageData.Services} />
       <Gallery data={landingPageData.Gallery}/>
-     
+      <FloatingWhatsApp phone="+573172272287" popupMessage="Hello, how can we help you?"/>
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
     </div>
