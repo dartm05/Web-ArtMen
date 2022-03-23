@@ -26,6 +26,19 @@ const App = () => {
     setLandingPageData(JsonData);
   }, []);
 
+  useEffect(() => {
+    import('react-facebook-pixel')
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init('532462051648172') // facebookPixelId
+        ReactPixel.pageView()
+
+        router.events.on('routeChangeComplete', () => {
+          ReactPixel.pageView()
+        })
+      })
+  }, [router.events]);
+
   return (
     <div>
       <Navigation />
