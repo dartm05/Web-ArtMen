@@ -27,15 +27,13 @@ const options = {
   debug: false,
 }
 
+const hasMarketingPreference = true;
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
-  }, []);
 
-
-  useEffect(() => {
-    ReactPixel.init('532462051648172', advancedMatching, options)
+    ReactPixel.init('532462051648172', advancedMatching, options);
     if (hasMarketingPreference) {
       console.log("I've just viewed the page!")
       ReactPixel.pageView()
@@ -43,6 +41,8 @@ const App = () => {
       ReactPixel.revokeConsent()
     }
   }, []);
+
+
 
   return (
     <div>
