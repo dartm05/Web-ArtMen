@@ -82,7 +82,7 @@ hr {
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
@@ -209,13 +209,21 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/banner.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
+@media only screen and (max-width: 500px){ 
+
+  .intro{
+     background-image: url(../img/banner-portrait.jpg);
+  }
+}
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -360,11 +368,11 @@ header .intro-text {
   width: 380px;
   height: 310px;
 }
-.portfolio-item {
+.portfolio-items {
   margin: 1px -15px 0 -14px;
   padding: 0;
 }
-.portfolio-item .hover-bg {
+.portfolio-items .hover-bg {
   overflow: hidden;
   position: relative;
   margin: 0;
