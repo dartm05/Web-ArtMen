@@ -74,6 +74,8 @@ hr {
 #menu {
   padding: 15px;
   transition: all 0.8s;
+  display: flex;
+  justify-content: space-between;
 }
 #menu.navbar-default {
   background-color: #fff;

@@ -18,14 +18,10 @@ export const Navigation = (props) => {
           </button>
           
        
-
-          <a href="#" className="navbar-brand">
-          <img  src="img/logo.png" alt="" width="24" height="24" class="inline-block"/>
-          </a>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            <span className="d-lg-inline-block d-none">Dr Luis Arteaga Villa</span>
-        
-          </a>{' '}
+          
+            <img  src="img/logoFinal.png" alt="" width="139" height="35" class="inline-block"/>
+          </a>
      
         </div>
 
