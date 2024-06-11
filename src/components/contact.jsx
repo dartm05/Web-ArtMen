@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
+import { Helmet } from 'react-helmet'
 
 const initialState = {
   name: '',
@@ -39,6 +40,19 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
+              <Helmet>
+                  <title>
+                    Dr Luis Arteaga Villa - Plastic Surgery - Contact Us
+                  </title>
+                  <meta
+                    name="description"
+                    content="Our offers include a wide range of procedures: breast augmentation, breast reduction, tummy tuck, liposuction, buttocks enhancement and various face procedures. We are here to help you achieve the body you desire."
+                  />
+                  <link
+                    rel="canonical"
+                    href="https://drluisarteagavilla.com/contact"
+                  />
+                </Helmet>
                 <h2>Get In Touch</h2>
                 <p>
                   Please fill out the form below to send us an email and we will

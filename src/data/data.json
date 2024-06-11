@@ -56,6 +56,11 @@
       "icon": "fa fa-medkit",
       "name": "Medicine Kit",
       "text": "Our kit includes every medicine and gardments you might need for a perfect recovery."
+    },
+    {
+      "icon": "fa fa-check",
+      "name": "Pre-surgical tests",
+      "text": "We offer a complete set of tests to guarantee your health is in perfect conditions for surgery."
     }
   ],
   "Testimonials": [
@@ -117,7 +122,7 @@
     "phone": "+57 317 227 2287",
     "email": "DrLuisArteagaVilla@gmail.com",
     "facebook": "https://www.facebook.com/luisarteagacirujano/",
-    "instagram": "https://instagram.com/dr.luis_arteaga?utm_medium=copy_link",
+    "instagram":  "https://www.instagram.com/drluisarteaga",
     "youtube": "youtube.com"
   },
   "Features": [

@@ -36,7 +36,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href='#features' className='page-scroll'>
+              <a href='#procedures' className='page-scroll'>
                 Procedures
               </a>
             </li>
@@ -46,12 +46,6 @@ export const Navigation = (props) => {
                 Services
               </a>
             </li>
-            <li>
-              <a href='#portfolio' className='page-scroll'>
-                Gallery
-              </a>
-            </li>
-  
             <li>
               <a href='#team' className='page-scroll'>
                 Stay
@@ -63,7 +57,7 @@ export const Navigation = (props) => {
               </a>
             </li>
 
-            <li><a href="https://instagram.com/dr.luis_arteaga?utm_medium=copy_link"><i className='fa fa-instagram fa-2x'  aria-hidden="true"></i></a>
+            <li><a href="https://www.instagram.com/drluisarteaga"><i className='fa fa-instagram fa-2x'  aria-hidden="true"></i></a>
             
             </li>
           </ul>

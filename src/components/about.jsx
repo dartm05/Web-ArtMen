@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 export const About = (props) => {
   return (
     <div id="about">
@@ -9,6 +10,19 @@ export const About = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
+            <Helmet>
+                  <title>
+                    Dr Luis Arteaga Villa - Plastic Surgery - About Us
+                  </title>
+                  <meta
+                    name="description"
+                    content="Our offers include a wide range of procedures: breast augmentation, breast reduction, tummy tuck, liposuction, buttocks enhancement and various face procedures. We are here to help you achieve the body you desire."
+                  />
+                  <link
+                    rel="canonical"
+                    href="https://drluisarteagavilla.com/about"
+                  />
+                </Helmet>
               <h2>About Us</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
               <h3>Why Choose Us?</h3>
