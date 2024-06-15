@@ -16,7 +16,7 @@ export const About = (props) => {
                   </title>
                   <meta
                     name="description"
-                    content="Our offers include a wide range of procedures: breast augmentation, breast reduction, tummy tuck, liposuction, buttocks enhancement and various face procedures. We are here to help you achieve the body you desire."
+                    content="Our offers include a wide range of procedures: breast augmentation, breast reduction, tummy tuck, liposuction, buttocks enhancement and various face procedures."
                   />
                   <link
                     rel="canonical"
