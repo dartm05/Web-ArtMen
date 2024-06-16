@@ -10,7 +10,6 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import { FloatingWhatsApp } from "@carlos8a/react-whatsapp-floating-button";
-import ReactPixel from "react-facebook-pixel";
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -29,14 +28,6 @@ const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
     setLandingPageData(JsonData);
-
-    ReactPixel.init("532462051648172", advancedMatching, options);
-    if (hasMarketingPreference) {
-      console.log("I've just viewed the page!");
-      ReactPixel.pageView();
-    } else {
-      ReactPixel.revokeConsent();
-    }
   }, []);
 
   return (
