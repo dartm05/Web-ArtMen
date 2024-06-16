@@ -2,3 +2,7 @@
   node_version = "16"
   command = "npm install && npm run build"
   publish = "build"
+
+[context.production.environment]
+  NODE_ENV = "production"
+  CI = "false"
