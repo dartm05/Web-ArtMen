@@ -4,13 +4,12 @@ import { Header } from "./components/header";
 import { Features } from "./components/procedures";
 import { About } from "./components/about";
 import { Services } from "./components/services";
- 
+
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
-import { FloatingWhatsApp } from "react-floating-whatsapp-button";
-import "react-floating-whatsapp-button/dist/index.css";
+import { FloatingWhatsApp } from "@carlos8a/react-whatsapp-floating-button";
 import ReactPixel from "react-facebook-pixel";
 import "./App.css";
 
@@ -47,13 +46,16 @@ const App = () => {
       <About data={landingPageData.About} />
       <Features data={landingPageData.Features} />
       <Services data={landingPageData.Services} />
-
-      <FloatingWhatsApp
-        phone="+573172272287"
-        popupMessage="Hello, how can we help you?"
-      />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
+      <FloatingWhatsApp
+      phoneNumber="573172272287"
+      avatar="/img/doctor.png"
+      initialMessageByServer='Hi there! How can I assist you?'
+      statusMessage='Available'
+      placeholder='Write here...'
+      accountName="Dr. Luis Arteaga"
+      allowEsc={true} />
     </div>
   );
 };
