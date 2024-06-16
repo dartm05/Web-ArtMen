@@ -1,4 +1,4 @@
-[build]	
-    node_version = "16"
-    command = "yarn build"
-    build = "build"
+[build]
+  node_version = "16"
+  command = "npm install && npm run build"
+  publish = "build"
