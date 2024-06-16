@@ -16,14 +16,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
 });
-
-const advancedMatching = { em: "leav66@yahoo.com" };
-const options = {
-  autoConfig: true,
-  debug: false,
-};
-
-const hasMarketingPreference = true;
+ 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
   useEffect(() => {
