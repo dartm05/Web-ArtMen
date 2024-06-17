@@ -1,22 +1,9 @@
-import { Helmet } from "react-helmet";
 export const Features = (props) => {
   return (
     <div id="procedures" className="text-center">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
-          <Helmet>
-            <title>Dr Luis Arteaga Villa - Plastic Surgery - Procedures</title>
-            <meta
-              name="description"
-              content="Our offers include a wide range of procedures: breast augmentation, breast reduction, tummy tuck, liposuction, buttocks enhancement and various face procedures."
-            />
-            <link
-              rel="canonical"
-              href="https://drluisarteagavilla.com/procedures"
-            />
-            <meta name="keywords" content="breast augmentation, breast reduction, tummy tuck, liposuction, buttocks enhancement" />
-          </Helmet>
-          <h2>Procedures</h2>
+          <h2>Our Catalogue</h2>
         </div>
         <div className="row">
           {props.data

@@ -16,6 +16,7 @@
 
     {
       "title": "Breast implants",
+      "description": "We offer multiple procedures such",
       "largeImage": "img/portfolio/breast-implant.jpeg",
       "smallImage": "img/portfolio/breast-implant.jpeg"
     },
@@ -34,7 +35,7 @@
     {
       "icon": "fa fa-car",
       "name": "Transportation",
-      "text": "Our package includes transportation from your arrival destination to our attention center"
+      "text": "Transportation from your arrival destination to our attention center"
     },
     {
       "icon": "fa fa-bed",

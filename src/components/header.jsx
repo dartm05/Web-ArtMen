@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet";
 export const Header = (props) => {
   return (
     <header id="header">
@@ -7,18 +6,6 @@ export const Header = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-0 intro-text">
-                <Helmet>
-                  <title>Dr Luis Arteaga Villa - Plastic Surgery in Colombia</title>
-                  <meta
-                    name="description"
-                    content="Discover top plastic surgery in Colombia with Dr. Luis Arteaga. Achieve stunning results with expert care in a beautiful setting. Contact us!"
-                  />
-                  <link
-                    rel="canonical"
-                    href="https://drluisarteagavilla.com/"
-                  />
-                  <meta name="keywords" content="plastic surgery, Colombia, tummy tuck, breast reduction, breast implants, buttocks enhancement, liposuction" />
-                </Helmet>
                 <h1>
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
