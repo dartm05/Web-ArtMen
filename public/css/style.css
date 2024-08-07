@@ -71,6 +71,17 @@ hr {
   border: 0;
 }
 /* Navigation */
+.border-md-right {
+  border-right: 1px solid black;
+  
+}
+@media (max-width: 768px) {
+
+  .border-md-right {
+    border-right: none;
+  }
+
+}
 #menu {
   padding: 15px;
   transition: all 0.8s;
@@ -416,6 +427,26 @@ header .intro-text {
   opacity: 1;
 }
 /* Testimonials Section */
+.testimonial-video{
+  width: 33.333% !important;
+  display: flex !important;
+}
+@media (min-width: 768px) {
+  .testimonial-video {
+      width: 33.333%;
+  }
+}
+.video-container {
+  display: flex;
+}
+.testimonial-wrapper{
+  align-content: center;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  padding: 30px 30px 30px 30px;
+}
 #testimonials {
   padding: 100px 0;
   background: #f6f6f6;
@@ -600,6 +631,49 @@ label {
   color: #608dfd;
   background: #fff;
 }
+
+/* Procedure details */
+ 
+#procedure-detail {
+  padding: 100px 0;
+  background: #f6f6f6;
+}
+#procedure-detail i {
+  color: #e6e6e6;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.procedure-detail {
+  position: relative;
+  padding: 20px;
+}
+.procedure-detail-image {
+  float: left;
+  margin-right: 15px;
+}
+.procedure-detail-image,
+.procedure-detail-image img {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.procedure-detail-content {
+  position: relative;
+  overflow: hidden;
+}
+.procedure-detail-content p {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-style: italic;
+}
+.procedure-detail-meta {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;

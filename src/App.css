@@ -29,8 +29,15 @@ padding-bottom: 60px;
 .procedure-caption{
   padding-bottom: 50px;
 }
-.title-procedure{padding-bottom: 60px;}
+.title-procedure{padding-bottom: 5px;}
 
+#procedures{
+  padding-bottom: 60px;
+}
+
+#procedure-detail-container{
+  padding-bottom: 50px;
+}
 
 .video-container {
   position: relative;

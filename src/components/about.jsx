@@ -3,9 +3,12 @@ export const About = (props) => {
     <div id="about">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6">
+          <div
+            className="col-xs-12 col-md-6"
+            style={{ alignContent: "center", alignItems: "center" }}
+          >
             {" "}
-            <img src="img/about.jpeg" className="img-responsive" alt="" />{" "}
+            <img src="img/about.jpeg" height={'480px'} className="img-responsive" alt="" style={{borderRadius:'50%'}}  />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">

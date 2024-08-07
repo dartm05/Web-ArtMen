@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Features = (props) => {
   return (
     <div id="procedures" className="text-center">
@@ -8,12 +10,13 @@ export const Features = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-12 col-md-4">
+                <div key={`${d.title}-${i}`} className="col-xs-12 col-md-4" id="procedure-detail-container">
                   {" "}
                   <figure className="figure">
                     <img src={d.img} alt="..." className="team-img" />
                   </figure>
                   <h3 className="title-procedure">{d.title}</h3>
+                  <Link to="/procedure" ><button className="btn btn-custom btn-lg">Read more</button></Link>
                 </div>
               ))
             : "Loading..."}
