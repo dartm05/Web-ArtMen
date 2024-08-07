@@ -38,7 +38,7 @@ export const Navigation = (props) => {
               alt=""
               width="139"
               height="35"
-              class="inline-block"
+              className="inline-block"
             />
           </a>
         </div>
