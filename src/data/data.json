@@ -128,35 +128,37 @@
   },
   "Features": [
     {
-      "img": "img/procedures/face.png",
-      "title": "Face procedures",
-      "text": "We offer multiple procedures such as blepharoplasty amongst other non-surgical rejuvenation procedures"
+      "img": "img/procedures/face-procedure.jpg",
+      "title": "Face Procedures",
+      "description": [
+        "Blepharoplasty",
+        "Bichectomy",
+        "Facelift",
+        "Brow lift",
+        "Lip augmentation",
+        "Orofacial Harmonization"
+      ]
     },
 
     {
-      "img": "img/procedures/breast_implants.png",
-      "title": "Breast implants",
-      "text": " Our goal is a natural looking result that enhances your body type"
+      "img": "img/procedures/breast-surgery.jpg",
+      "title": "Breast Procedures",
+      "description": ["Breast augmentation",
+        "Breast reduction",
+        "Breast lift",
+        "Breast reconstruction",
+        "Gynecomastia"
+      ]
     },
     {
-      "img": "img/procedures/breast_enhance.png",
-      "title": "Breast reduction",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "img": "img/procedures/lip.png",
-      "title": "Fillings",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "img": "img/procedures/firming.png",
-      "title": "Tummy tuck",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "img": "img/procedures/buttock_enhance.png",
-      "title": "Buttocks enhancement",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "img": "img/procedures/body-contour.jpg",
+      "title": "Body Procedures",
+      "description":[ "Tummy tuck",
+        "Liposuction",
+        "Brazilian Butt Lift (BBL)",
+        "Thigh Dermolipectomy",
+        "Arms lift"
+      ]
     }
   ]
 }

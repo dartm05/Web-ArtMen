@@ -12,6 +12,7 @@ export const Testimonials = (props) => {
                 <div className="testimonial-video">
                   <iframe
                     src="https://youtube.com/embed/Homqh-hB7kU"
+                    title="Dr Luis Arteaga Explains Tummy Tuck"
                     type="video/mp4"
                     width="360"
                     height="515"
@@ -30,6 +31,7 @@ export const Testimonials = (props) => {
                     width="360"
                     height="515"
                     src="https://youtube.com/embed/7rBDXb05C9c"
+                    title="Testimonial from a patient: Giselle"
                     style={{ border: 0 }}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
@@ -44,6 +46,7 @@ export const Testimonials = (props) => {
                     width="360"
                     height="515"
                     src="https://youtube.com/embed/FJiblyuLcdc"
+                    title="Testimonial from a patient: Alexka"
                     style={{ border: 0 }}
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

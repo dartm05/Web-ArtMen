@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Flipcard } from "./flip-card";
 
 export const Features = (props) => {
   return (
@@ -9,17 +9,15 @@ export const Features = (props) => {
         </div>
         <div className="row">
           {props.data
-            ? props.data.map((d, i) => (
-                <div
-                  key={`${d.title}-${i}`}
-                  className="col-xs-12 col-md-4"
-                  id="procedure-detail-container"
-                >
-                  {" "}
-                  <figure className="figure">
-                    <img src={d.img} alt="..." className="team-img" />
-                  </figure>
-                  <h3 className="title-procedure">{d.title}</h3>
+            ? props.data.map((procedure, index) => (
+                <div className="col-md-4 col-sm-6" key={index}>
+                  <div className="container-procedure">
+                    <Flipcard
+                      imgsrc={procedure.img}
+                      description={procedure.description}
+                    />
+                  </div>
+                  <h3 className="title-procedure">{procedure.title}</h3>
                 </div>
               ))
             : "Loading..."}

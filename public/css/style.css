@@ -283,7 +283,7 @@ header .intro-text {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
-.container-about{
+.container-about {
   text-align: justify;
 }
 #about {
@@ -680,6 +680,30 @@ label {
   font-size: 15px;
   font-weight: 600;
   color: #666;
+}
+
+.container-procedure {
+  height: 382px;
+}
+
+.container-img {
+  width: 100%;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.container-flipcard {
+  height: 385px;
+  background-color: #608dfd;
+  text-align: center;
+  align-content: center;
+}
+
+.container-description > p {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 /* Footer Section*/
