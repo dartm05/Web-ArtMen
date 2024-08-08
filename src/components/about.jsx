@@ -8,12 +8,14 @@ export const About = (props) => {
             style={{ alignContent: "center", alignItems: "center" }}
           >
             {" "}
-            <img src="img/about.jpeg" height={'480px'} className="img-responsive" alt="" style={{borderRadius:'50%'}}  />{" "}
+            <img src="img/intro-about.jpeg"  className="img-responsive" alt="" style={{borderRadius:'20%'}}  />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
               <h2>About Us</h2>
+              <div className="container-about">
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
+              
               <h3>Why Choose Us?</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
@@ -25,6 +27,7 @@ export const About = (props) => {
                       : "loading"}
                   </ul>
                 </div>
+              </div>
               </div>
             </div>
           </div>

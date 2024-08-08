@@ -1,12 +1,16 @@
 {
   "Header": {
     "title": "Dr Luis Arteaga Villa, MD",
-    "subtitle":"Plastic Surgery in Latin America",
+    "subtitle": "Plastic Surgery in Latin America",
     "intro": "Specialized in Breast Surgery, Facial Lifting, Butt Lifting and Body Contour.",
     "paragraph": " Start your journey to a healthier life and your ideal body!"
   },
   "About": {
-    "paragraph": "Dr Luis Arteaga is a recognized plastic surgeon from Cartagena, Colombia where he acquired his Bachelor's degree in Medicine and specialized in General Surgery at The University of Cartagena.  Later on, he performed specialization studies in Human Anatomy, at The University of Antioquia and, continuing with his academic training, he advanced studies in Cosmetic Surgery at The Colombian Academy of Aesthetic Surgery endorsed by The IACS (International Academy of Cosmetic Surgery).",
+    "paragraph": [
+      "Dr Luis Arteaga is a recognized plastic surgeon from Cartagena, Colombia where he acquired his Bachelor's degree in Medicine and specialized in General Surgery at The University of Cartagena.  Later on, he performed specialization studies in Human Anatomy,",
+      " at The University of Antioquia and, continuing with his academic training, he advanced studies in Cosmetic Surgery ",
+      "at The Colombian Academy of Aesthetic Surgery endorsed by The IACS (International Academy of Cosmetic Surgery)."
+    ],
     "Why": [
       "More than 20 years of experience",
       "Natural results suitable to your body type",
@@ -15,7 +19,6 @@
     ]
   },
   "Gallery": [
-
     {
       "title": "Breast implants",
       "description": "We offer multiple procedures such",
@@ -113,19 +116,14 @@
       "img": "img/hotel/bath.jpeg",
       "name": "Jane Doe",
       "job": "Senior Designer"
-    },
-    {
-      "img": "img/hotel/room.jpeg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
     }
   ],
   "Contact": {
-    "address": "Cra. 3 # 6 - 120, Cartagena de Indias, Provincia de Cartagena, Bolívar",
+    "address": "Centro de Negocios Vélez, Bocagrande Cra. 3 # 6 - 120, local 208, Cartagena de Indias, Provincia de Cartagena, Bolívar",
     "phone": "+57 317 227 2287",
     "email": "drLuisArteagavilla@gmail.com",
     "facebook": "https://www.facebook.com/luisarteagacirujano/",
-    "instagram":  "https://www.instagram.com/drluisarteaga",
+    "instagram": "https://www.instagram.com/drluisarteaga",
     "youtube": "youtube.com"
   },
   "Features": [
@@ -160,9 +158,5 @@
       "title": "Buttocks enhancement",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
-
- 
-
-
   ]
 }

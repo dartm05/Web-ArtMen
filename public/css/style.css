@@ -283,6 +283,9 @@ header .intro-text {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
+.container-about{
+  text-align: justify;
+}
 #about {
   padding: 100px 0;
 }
