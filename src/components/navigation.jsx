@@ -51,7 +51,7 @@ export const Navigation = (props) => {
             {menuOptions.map((option) => (
               <li
                 key={option.id}
-                className={`border-md-right ${isActive == option.id ? "active" : ""}`}
+                className={isActive == option.id ? "active" : ""}
                 onClick={() => setActive(option.id)}
               >
                 <HashLink smooth to={option.link} href={option.link}>
