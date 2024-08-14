@@ -1,15 +1,26 @@
 import { useState } from "react";
-
 import { HashLink } from "react-router-hash-link";
+import { Dropdown } from "./dropdown";
 
 export const Navigation = (props) => {
   const [language, setLanguage] = useState({});
   const [isActive, setActive] = useState({});
+  const [dropdown, setDropdown] = useState(false);
 
   const menuOptions = [
     { id: "home", name: "Home", link: "/#page-top" },
     { id: "about", name: "About Us", link: "/#about" },
-    { id: "procedures", name: "Our Procedures", link: "/#procedures" },
+    {
+      id: "procedures",
+      name: "Our Procedures",
+      link: "/#procedures",
+      submenu: [
+        { title: "Face", url: "/#face" },
+        { title: "Body", url: "/#body" },
+        { title: "Breast", url: "/#breast" },
+        { title: "Featured", url: "/#procedures" },
+      ],
+    },
     { id: "services", name: "Services", link: "/#services" },
     { id: "team", name: "Locations", link: "/#team" },
     { id: "contact", name: "Contact", link: "/#contact" },
@@ -54,9 +65,30 @@ export const Navigation = (props) => {
                 className={isActive == option.id ? "active" : ""}
                 onClick={() => setActive(option.id)}
               >
-                <HashLink smooth to={option.link} href={option.link}>
-                  <div className="nav-item">{option.name}</div>
-                </HashLink>
+                {option.submenu ? (
+                  <>
+                    <div
+                      className="nav-item"
+                      onClick={(prev) => {
+                        setDropdown(!prev);
+                      }}
+                      aria-expanded={dropdown ? "true" : "false"}
+                    >
+                      {option.name}
+                    </div>
+                    <Dropdown submenus={option.submenu} dropdown={dropdown} />
+                  </>
+                ) : (
+                  <HashLink smooth to={option.link} href={option.link}>
+                    <div
+                      className="nav-item"
+                      aria-expanded={dropdown ? "true" : "false"}
+                      onClick={(prev) => setDropdown(!prev)}
+                    >
+                      {option.name}{" "}
+                    </div>
+                  </HashLink>
+                )}
               </li>
             ))}
             <li>
