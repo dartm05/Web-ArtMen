@@ -1,11 +1,8 @@
 import { useState } from "react";
-import { HashLink } from "react-router-hash-link";
-import { Dropdown } from "./dropdown";
+import { MenuItem } from "./menu-item";
 
 export const Navigation = (props) => {
-  const [language, setLanguage] = useState({});
   const [isActive, setActive] = useState({});
-  const [dropdown, setDropdown] = useState(false);
 
   const menuOptions = [
     { id: "home", name: "Home", link: "/#page-top" },
@@ -15,10 +12,48 @@ export const Navigation = (props) => {
       name: "Our Procedures",
       link: "/#procedures",
       submenu: [
-        { title: "Face", url: "/#face" },
-        { title: "Body", url: "/#body" },
-        { title: "Breast", url: "/#breast" },
-        { title: "Featured", url: "/#procedures" },
+        {
+          name: "Face",
+          url: "/#face",
+          submenu: [
+            {
+              id: "lip-augmentation",
+              name: "Lip Augmentation",
+              link: "/lip-augmentation",
+            },
+            {
+              id: "orofacial",
+              name: "Orofacial Harmonization",
+              link: "/orofacial-harmonization",
+            },
+            { name: "Blepharoplasty", link: "/blepharoplasty" },
+            { name: "Bichectomy", link: "/bichectomy" },
+            { name: "Facelift", link: "/facelift" },
+            { name: "Browlift", link: "/browlift" },
+          ],
+        },
+        {
+          name: "Body",
+          link: "/#body",
+          submenu: [
+            { name: "Tummy tuck", link: "/tummy-tuck" },
+            { name: "liposuction", link: "/liposuction" },
+            { name: "Brazilian Butt Lift", link: "/brazilian-butt-lift" },
+            { name: "Arms Lift", link: "/arms-lift" },
+            { name: "Thigh Lift", link: "/thigh-lift" },
+          ],
+        },
+        {
+          name: "Breast",
+          link: "/#breast",
+          submenu: [
+            { name: "Breast Reduction", link: "/breast-reduction" },
+            { name: "Breast Augmentation", link: "/breast-augmentation" },
+            { name: "Breast Lift", link: "/breast-lift" },
+            { name: "Gynecomastia", link: "/gynecomastia" },
+          ],
+        },
+        { name: "All Featured", link: "/#procedures" },
       ],
     },
     { id: "services", name: "Services", link: "/#services" },
@@ -60,36 +95,11 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             {menuOptions.map((option) => (
-              <li
-                key={option.id}
-                className={isActive == option.id ? "active" : ""}
-                onClick={() => setActive(option.id)}
-              >
-                {option.submenu ? (
-                  <>
-                    <div
-                      className="nav-item"
-                      onClick={(prev) => {
-                        setDropdown(!prev);
-                      }}
-                      aria-expanded={dropdown ? "true" : "false"}
-                    >
-                      {option.name}
-                    </div>
-                    <Dropdown submenus={option.submenu} dropdown={dropdown} />
-                  </>
-                ) : (
-                  <HashLink smooth to={option.link} href={option.link}>
-                    <div
-                      className="nav-item"
-                      aria-expanded={dropdown ? "true" : "false"}
-                      onClick={(prev) => setDropdown(!prev)}
-                    >
-                      {option.name}{" "}
-                    </div>
-                  </HashLink>
-                )}
-              </li>
+              <MenuItem
+                option={option}
+                isActive={isActive}
+                setActive={setActive}
+              />
             ))}
             <li>
               <a href="https://www.instagram.com/drluisarteaga">
