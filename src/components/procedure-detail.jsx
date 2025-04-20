@@ -1,15 +1,30 @@
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 export const ProcedureDetail = (props) => {
+  const location = useLocation();
+  const { pathname } = location;
+  const [procedureData, setProcedureData] = useState();
+
+  useEffect(() => {
+    setProcedureData(
+      props.data.filter((item) => item.link === pathname.split("/")[2])
+    );
+  }, [procedureData]);
+
   return (
-    <div id="procedure-detail">
+    <section id="procedure-detail">
       <div className="container">
         <div className="section-title text-center center">
-          <h2>Procedure Detail</h2>
+          <h2> {procedureData ? procedureData[0].title : "Loading"}</h2>
           <div className="row">
             <div className="col-xs-12 col-md-6">
               {" "}
               <img
                 src="img/about.jpeg"
                 className="img-responsive"
+                height={500}
                 alt=""
               />{" "}
             </div>
@@ -17,6 +32,6 @@ export const ProcedureDetail = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

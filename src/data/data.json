@@ -3,7 +3,7 @@
     "title": "Dr Luis Arteaga Villa, MD",
     "subtitle": "Plastic Surgery in Latin America",
     "intro": "Specialized in Breast Surgery, Facial Lifting, Butt Lifting and Body Contour.",
-    "paragraph": " Start your journey to a healthier life and your ideal body!"
+    "paragraph": "Start your journey to a healthier life and your ideal body!"
   },
   "About": {
     "paragraph": [
@@ -21,19 +21,15 @@
   "Gallery": [
     {
       "title": "Breast implants",
-      "description": "We offer multiple procedures such",
-      "largeImage": "img/portfolio/breast-implant.jpeg",
-      "smallImage": "img/portfolio/breast-implant.jpeg"
+      "largeImage": "img/portfolio/breast-implant.jpeg"
     },
     {
       "title": "Buttocks Enhancement",
-      "largeImage": "img/portfolio/buttocks.jpeg",
-      "smallImage": "img/portfolio/buttocks.jpeg"
+      "largeImage": "img/portfolio/buttocks.jpeg"
     },
     {
       "title": "Breast reduction & Tummy Tuck ",
-      "largeImage": "img/portfolio/triplet.jpeg",
-      "smallImage": "img/portfolio/triplet.jpeg"
+      "largeImage": "img/portfolio/triplet.jpeg"
     }
   ],
   "Services": [
@@ -101,21 +97,15 @@
       "name": "Johnathan Doe"
     }
   ],
-  "Team": [
+  "Stay": [
     {
-      "img": "img/hotel/manga.jpeg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/hotel/manga.jpeg"
     },
     {
-      "img": "img/hotel/entry.jpeg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "img": "img/hotel/entry.jpeg"
     },
     {
-      "img": "img/hotel/bath.jpeg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "img": "img/hotel/bath.jpeg"
     }
   ],
   "Contact": {
@@ -126,7 +116,7 @@
     "instagram": "https://www.instagram.com/drluisarteaga",
     "youtube": "youtube.com"
   },
-  "Features": [
+  "Catalogue": [
     {
       "img": "img/procedures/face-procedure.jpg",
       "title": "Face Procedures",
@@ -143,7 +133,8 @@
     {
       "img": "img/procedures/breast-surgery.jpg",
       "title": "Breast Procedures",
-      "description": ["Breast augmentation",
+      "description": [
+        "Breast augmentation",
         "Breast reduction",
         "Breast lift",
         "Breast reconstruction",
@@ -153,12 +144,16 @@
     {
       "img": "img/procedures/body-contour.jpg",
       "title": "Body Procedures",
-      "description":[ "Tummy tuck",
+      "description": [
+        "Tummy tuck",
         "Liposuction",
         "Brazilian Butt Lift (BBL)",
         "Thigh Dermolipectomy",
         "Arms lift"
       ]
     }
+  ],
+  "CatalogueDetail": [
+    { "title": "Lips Augmentation", "link": "lip-augmentation" }
   ]
 }

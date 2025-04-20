@@ -109,7 +109,7 @@ hr {
   display: block;
 }
 
- .dropdown .dropdown-submenu {
+ .dropdown-menu .dropdown-submenu {
   position: absolute;
   left: 100%;
   top: -7px;
@@ -123,17 +123,18 @@ hr {
 .navbar .dropdown show {
   display: none;
 }
-.navbar .dropdown > .dropdown-item > a:hover {
+.navbar .dropdown-menu > .dropdown-item > a:hover {
   color: #f6f6f6;
   background-color: #555;
 }
 
-.navbar .dropdown > .dropdown-item > a {
+.navbar .dropdown-menu > .dropdown-item > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
   color: #555;
   font-size: 15px;
   font-weight: 400;
+  text-wrap: wrap;
 }
 .border-md-right {
   border-right: 1px solid black;
@@ -716,7 +717,8 @@ label {
 
 #procedure-detail {
   padding: 100px 0;
-  background: #f6f6f6;
+  background-image: url(../img/IMG_0019.PNG);
+  height: 100%;
 }
 #procedure-detail i {
   color: #e6e6e6;

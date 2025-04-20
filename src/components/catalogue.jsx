@@ -1,6 +1,6 @@
 import { Flipcard } from "./flip-card";
 
-export const Features = (props) => {
+export const Catalogue = (props) => {
   return (
     <div id="procedures" className="text-center">
       <div className="container">

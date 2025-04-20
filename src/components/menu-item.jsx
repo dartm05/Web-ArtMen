@@ -1,6 +1,6 @@
 import { HashLink } from "react-router-hash-link";
 import { Dropdown } from "./dropdown";
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 export const MenuItem = ({ option, isActive, setActive }) => {
   const [dropdown, setDropdown] = useState(false);
@@ -10,11 +10,28 @@ export const MenuItem = ({ option, isActive, setActive }) => {
     setDropdown(!dropdown);
   };
 
+  let dropdownRef = useRef();
+
+  useEffect(() => {
+    const handler = (event) => {
+     if (dropdown && dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setDropdown(false);
+     }
+    };
+    document.addEventListener("mousedown", handler);
+    document.addEventListener("touchstart", handler);
+    return () => {
+     document.removeEventListener("mousedown", handler);
+     document.removeEventListener("touchstart", handler);
+    };
+   }, [dropdown]);
+
   return (
     <li
       key={option.id}
       className={isActive === option.id ? "active" : ""}
       onClick={() => setActive(option.id)}
+      ref={dropdownRef}
     >
       {option.submenu ? (
         <>

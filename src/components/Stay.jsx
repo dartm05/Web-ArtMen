@@ -1,4 +1,4 @@
-export const Team = (props) => {
+export const Stay = (props) => {
   return (
     <div id='team' className='text-center'>
       <div className='container'>
