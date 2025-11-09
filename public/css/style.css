@@ -567,22 +567,22 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
-/* Team Section */
-#team {
+/* stay Section */
+#stay {
   padding: 100px 0;
 }
-#team h4 {
+#stay h4 {
   margin: 5px 0;
 }
-#team .team-img {
+#stay .stay-img {
   width: 240px;
   height: 200px;
 }
-#team .thumbnail {
+#stay .thumbnail {
   background: transparent;
   border: 0;
 }
-#team .thumbnail .caption {
+#stay .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
 }

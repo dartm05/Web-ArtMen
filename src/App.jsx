@@ -11,10 +11,9 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import { FloatingWhatsApp } from "@carlos8a/react-whatsapp-floating-button";
 import "./App.css";
-
-
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { ProcedureDetail } from "./components/procedure-detail";
+import { PrivacyPolicy } from "./components/privacy-policy";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -51,6 +50,10 @@ const App = () => {
           path="/procedure/:procedureId"
           element={<ProcedureDetail data={landingPageData.CatalogueDetail} />}
         />
+        <Route
+          path="/privacy-policy"
+          element={<PrivacyPolicy contactInfo={landingPageData.Contact} />}
+        />
       </Routes>
       <FloatingWhatsApp
         phoneNumber="573172272287"
@@ -58,7 +61,7 @@ const App = () => {
         initialMessageByServer="Hi there! How can I assist you?"
         statusMessage="Available"
         placeholder="Write here..."
-        accountName="Dr. Luis Arteaga"
+        accountName="Dr. Luis Arteaga Villa"
         allowEsc={true}
         style={{
           position: "fixed",

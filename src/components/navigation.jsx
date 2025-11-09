@@ -57,7 +57,7 @@ export const Navigation = (props) => {
       ],
     },
     { id: "services", name: "Services", link: "/#services" },
-    { id: "team", name: "Locations", link: "/#team" },
+    { id: "stay", name: "Locations", link: "/#stay" },
     { id: "contact", name: "Contact", link: "/#contact" },
   ];
 

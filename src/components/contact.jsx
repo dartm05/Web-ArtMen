@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
 
 const initialState = {
@@ -148,7 +149,10 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>&copy; 2020 Dr Luis Arteaga Villa Design by ArtMen</p>
+          <p>
+            &copy; 2020 Dr Luis Arteaga Villa Design by ArtMen |{" "}
+            <Link to="/privacy-policy">Privacy Policy &amp; Data Deletion</Link>
+          </p>
         </div>
       </div>
     </div>

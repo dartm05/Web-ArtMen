@@ -6,7 +6,7 @@
   #about,
   #services,
   #testimonials,
-  #team,
+  #stay,
   #contact,
   #footer {
     width: 111%;
@@ -22,7 +22,7 @@ padding-top: 60px;
 padding-bottom: 60px;
 }
 
-.team-img{
+.stay-img{
   height: 140px;
 }
 
